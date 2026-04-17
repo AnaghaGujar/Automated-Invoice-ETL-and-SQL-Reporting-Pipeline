@@ -12,6 +12,7 @@
   Environment: Jupyter Notebook.
 
 3. Key Challenges & Solutions
+
   Unstructured Formats: Developed advanced Regular Expressions (Regex) to capture Invoice IDs (e.g., #1234 vs INV-100) across different document layouts.
 
   Data Ambiguity: Implemented Positional Logic (using findall and index targeting) to distinguish between "Subtotal," "Tax," and the final "Total Due".
