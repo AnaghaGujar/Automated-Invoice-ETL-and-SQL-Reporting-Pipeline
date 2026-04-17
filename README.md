@@ -1,8 +1,8 @@
 # Automated-Invoice-ETL-and-SQL-Reporting-Pipeline
 1. The Business Problem
-  The goal was to automate the extraction of financial data from inconsistent, unstructured PDF invoices to eliminate manual entry errors and prepare data for daily "SRT" (Service Reporting Tool) reports.
+   The goal was to automate the extraction of financial data from inconsistent, unstructured PDF invoices to eliminate manual entry errors and prepare data for daily "SRT" (Service Reporting Tool) reports.
 
-2. Technical Stack
+3. Technical Stack
   Language: Python.
 
   Libraries: pdfplumber (Extraction), pandas (Transformation), re (Regular Expressions), dateutil (Parsing).
@@ -22,6 +22,7 @@
   Data Integrity: Applied type-validation and string-cleaning logic to handle thousand-separators (commas) and ensure all financial figures were stored as mathematical floats.
 
 4. Results & Impact
+   
   Database Integration: Successfully loaded processed data into a relational SQL database for downstream reporting.
 
   Actionable Insights: Built SQL queries to generate Monthly Business Reviews, identifying total spend trends and invoice volumes automatically.
